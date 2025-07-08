@@ -11,7 +11,7 @@ function LeaderBoardPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/attempts/quiz/${quizId}`)
+    axios.get(`https://mern-project-backend2-9eul.onrender.com/api/attempts/quiz/${quizId}`)
       .then(res => {
         const sorted = res.data.sort((a, b) => b.score - a.score);
         setAttempts(sorted);
