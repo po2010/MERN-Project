@@ -21,8 +21,10 @@ app.use(express.json());
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/questions', questionRoutes);
 app.use('/api/quizzes', quizRoutes);
-app.use('/api/attempts', attempts); // 🔁 matches your frontend URL
+app.use('/api/attempts', attempts); 
 app.use('/api/leaderboard', leaderboardRoutes);
+
+app.get('/ping', (req, res) => res.send('pong'));
 
 const PORT = process.env.PORT || 5000;
 mongoose.connect(process.env.MONGO_URI)
