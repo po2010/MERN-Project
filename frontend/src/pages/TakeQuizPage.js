@@ -83,7 +83,7 @@ function TakeQuizPage() {
     };
 
     try {
-      await axios.post('http://localhost:5000/api/attempts', attempt);
+      await axios.post('https://mern-project-backend2-9eul.onrender.com/api/attempts', attempt);
       setSubmitted(true);
       localStorage.removeItem(`quizStartTime-${id}`); // ✅ Clear timer
       navigate('/results', { state: attempt }); // ✅ Redirect
