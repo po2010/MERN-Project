@@ -11,7 +11,7 @@ function MyQuizzesPage() {
   useEffect(() => {
     if (!user?._id) return;
 
-    axios.get(`http://localhost:5000/api/quizzes/creator/${user._id}`)
+    axios.get(`https://mern-project-backend2-9eul.onrender.com/api/quizzes/creator/${user._id}`)
       .then(res => setQuizzes(res.data))
       .catch(err => console.error('Failed to fetch quizzes', err));
   }, [user]);
