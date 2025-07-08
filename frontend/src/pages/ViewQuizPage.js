@@ -8,7 +8,7 @@ function ViewQuizPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/quizzes/published/all')
+    axios.get('https://mern-project-backend2-9eul.onrender.com/api/quizzes/published/all')
       .then(res => setQuizzes(res.data))
       .catch(err => console.error('Failed to load quizzes', err));
   }, []);
