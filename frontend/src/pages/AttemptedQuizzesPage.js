@@ -17,7 +17,7 @@ function AttemptedQuizPage() {
     }
 
     axios
-      .get(`http://localhost:5000/api/attempts/user/${userId}`)
+      .get(`https://mern-project-backend2-9eul.onrender.com/api/attempts/user/${userId}`)
       .then(res => setAttempts(res.data))
       .catch(err => console.error('Error fetching attempts:', err));
   }, []);
