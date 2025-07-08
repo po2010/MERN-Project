@@ -7,16 +7,7 @@ function PreviewQuizPage() {
   const navigate = useNavigate();
 
   const state= location.state || {};
-  //if (!state || !Array.isArray(state.questions)) {
-    //return (
-      //<div className="container">
-        //<h2>❌ Cannot preview quiz</h2>
-        //<p>Quiz data is missing or incomplete.</p>
-        //<button onClick={() => navigate('/create-quiz')}>🔙 Back to Create Quiz</button>
-      //</div>
-    //);
-  //}
-
+  
   const {
   title = '',
   description = 'No description provided.',
