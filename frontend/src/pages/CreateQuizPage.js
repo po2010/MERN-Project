@@ -56,7 +56,7 @@ function CreateQuizPage() {
     try {
       const user = JSON.parse(localStorage.getItem('user')); // ✅ get logged-in user
 
-    await axios.post('http://localhost:5000/api/quizzes', {
+    await axios.post('https://mern-project-backend2-9eul.onrender.com/api/quizzes', {
       title,
       description,
       category,
