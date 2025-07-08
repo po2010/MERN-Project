@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Attempt = require('../models/Attempt');
 
-// ✅ Save an attempt
 router.post('/', async (req, res) => {
   try {
     const attempt = new Attempt(req.body);
@@ -14,7 +13,6 @@ router.post('/', async (req, res) => {
   }
 });
 
-// ✅ Get all attempts for a quiz (Used by Leaderboard)
 router.get('/quiz/:quizId', async (req, res) => {
   try {
     const attempts = await Attempt.find({ quizId: req.params.quizId });
@@ -25,7 +23,6 @@ router.get('/quiz/:quizId', async (req, res) => {
   }
 });
 
-// ✅ Get all attempts by a specific user (Used for Attempted Quizzes)
 router.get('/user/:userId', async (req, res) => {
   try {
     const attempts = await Attempt.find({ userId: req.params.userId });
