@@ -17,7 +17,7 @@ function TakeQuizPage() {
   useEffect(() => {
     const fetchQuiz = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/quizzes/${id}`);
+        const res = await axios.get(`https://mern-project-backend2-9eul.onrender.com/api/quizzes/${id}`);
         setQuiz(res.data);
         setAnswers(Array(res.data.questions.length).fill(null));
 
