@@ -12,7 +12,11 @@ const questionRoutes = require('./routes/questions');
 
 
 const app = express();
-app.use(cors());
+const allowedOrigins = ['https://mern-project-frontend-ongz.onrender.com'];
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
 app.use(express.json());
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/questions', questionRoutes);
