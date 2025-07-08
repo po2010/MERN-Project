@@ -1,0 +1,56 @@
+.home-container {
+  text-align: center;
+  padding: 3rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9fb;
+  min-height: 100vh;
+  position: relative;
+}
+
+.home-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #e0e0e0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.home-actions button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-actions button:hover {
+  background-color: #45a049;
+}
+
+.switch-role-btn {
+  margin-top: 3rem;
+  padding: 10px 20px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.switch-role-btn:hover {
+  background-color: #f57c00;
+}

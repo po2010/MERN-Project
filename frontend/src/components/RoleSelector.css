@@ -1,0 +1,61 @@
+.role-selector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafe;
+  min-height: 100vh;
+}
+
+.role-image {
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.role-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.role-subtext {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.role-divider {
+  width: 60%;
+  margin-bottom: 1.5rem;
+  border-color: #ddd;
+}
+
+.role-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.role-button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.role-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.role-button.maker {
+  background-color: #d0ebff;
+  color: #004085;
+}
+
+.role-button.taker {
+  background-color: #ffe3ec;
+  color: #721c24;
+}

@@ -1,0 +1,48 @@
+/* src/styles/RegisterPage.css */
+.register-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: #f8f9fc;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 0.5rem;
+}
+
+.register-container input,
+.register-container select {
+  display: block;
+  width: 100%;
+  margin: 0.75rem 0;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.register-container button {
+  background-color: #4e73df;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.register-container .login-link {
+  margin-top: 1rem;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.register-container .error {
+  color: red;
+  font-size: 0.9rem;
+}

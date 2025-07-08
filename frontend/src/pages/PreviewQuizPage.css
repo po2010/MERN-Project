@@ -1,0 +1,107 @@
+.preview-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 8px 14px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.home-button:hover {
+  background-color: #125ba1;
+}
+
+.preview-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.quiz-info p {
+  margin: 0.4rem 0;
+  color: #444;
+}
+
+.preview-questions {
+  list-style: none;
+  padding-left: 0;
+}
+
+.preview-question-item {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.option-list {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.option, .correct-option {
+  margin-bottom: 0.3rem;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: #eaeaea;
+}
+
+.correct-option {
+  background-color: #c8e6c9;
+  font-weight: bold;
+}
+
+.action-buttons {
+  margin-top: 10px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: orange;
+  color: white;
+}
+
+.delete-btn {
+  background-color: rgb(94, 0, 19);
+  color: white;
+}
+
+.back-button {
+  margin-top: 2rem;
+  padding: 10px 16px;
+  background-color: #616161;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #424242;
+}

@@ -1,0 +1,99 @@
+/* CreateQuizPage.css */
+
+body {
+  background-color: #f5f7fa;
+}
+
+.quiz-form-container {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+.home-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 8px 14px;
+  background-color: #19ccd2;
+  color: rgb(238, 16, 16);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #d6dfda;
+}
+
+.quiz-form-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.form-input, .form-textarea, .form-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-time label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.form-time {
+  margin-bottom: 1rem;
+}
+
+.form-checkboxes {
+  margin-bottom: 1rem;
+}
+
+.form-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-button.add {
+  background-color: #f0f0f0;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.form-button.preview {
+  background-color: #1976d2;
+  color: white;
+  margin-right: 1rem;
+}
+
+.form-button.submit {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}

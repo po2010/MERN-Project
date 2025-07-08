@@ -1,0 +1,85 @@
+.my-quizzes-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 8px 14px;
+  background-color: #19ccd2;
+  color: rgb(238, 16, 16);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #d6dfda;
+}
+
+.quizzes-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.no-quizzes {
+  text-align: center;
+  color: #888;
+}
+
+.quiz-list {
+  list-style: none;
+  padding: 0;
+}
+
+.quiz-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f6f8;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.quiz-info strong {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.quiz-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.quiz-buttons button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quiz-buttons button:first-child {
+  background-color: #ffc107;
+  color: #333;
+}
+.quiz-buttons button:last-child {
+  background-color: #4caf50;
+  color: white;
+}

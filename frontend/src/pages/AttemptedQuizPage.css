@@ -1,0 +1,34 @@
+.attempted-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.attempted-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.view-result-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.view-result-btn:hover {
+  background-color: #00ad98;
+}
